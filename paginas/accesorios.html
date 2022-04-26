@@ -15,167 +15,330 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <!--link de mi css-->
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <title>Accesorios</title>
 </head>
 <body class="bodyAcce">
-    <header class="header">
-        <!--barra de navegación-->
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="../media/img/pepito's Logo 2.jpg" width="200px" alt="logo pepitos"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/principal.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <div class="conteiner-fluid">
+        <header class="header">
+            <!--barra de navegación-->
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../media/img/pepito_s Logo 2.jpg" width="200px" alt="logo pepitos"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/principal.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">de interior</a></li>
+                            <li><a class="dropdown-item" href="#">de exterior</a></li>
+                            <li><a class="dropdown-item" href="#">aerosol</a></li>
+                            <li><a class="dropdown-item" href="#">piletas</a></li>
+                            <li><a class="dropdown-item" href="#">esmaltes</a></li>
+                            <li><a class="dropdown-item" href="#">diluyentes</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">barniz</a></li>
+                            <li><a class="dropdown-item" href="#">masillas</a></li>
+                            <li><a class="dropdown-item" href="#">entonadores</a></li>
+                            <li><a class="dropdown-item" href="#">lacas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Paginas/accesorios.html">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Paginas/contactanos.html">Contactanos</a>
+                        </li>
                         </ul>
+                        <form class="d-flex">
+                        <div class="aninav tran1 scale">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos..." aria-label="Search">
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-secondary" type="submit"><a href="lupa"><i class="bi bi-search fs-4"></i></a></button>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-secondary" type="submit"><a href="carrito"><i class="bi bi-cart fs-4"></i></a></button>
+                        </div>
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+            <h1>Accesorios</h1>
+            <div class="h2a">
+                <h2 class="text-center h2 mt-5 mb-5">Productos destacados</h2>
+            </div>
+        </header>
+        <main class="accesorios">
+            <!--targetas de productos-->
+            <section class="conteiner-fluid mt-5 mb-5">
+                <div class="row justify-content-around">
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 1.jpg" class="card-img-top" alt="imagen producto 1">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-1</h5>
+                            <p class="card-text">$560</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 2.jpg" class="card-img-top" alt="imagen producto 2">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-2</h5>
+                            <p class="card-text">$370</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/cinta 4.jpg" class="card-img-top" alt="imagen producto 3">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-3</h5>
+                            <p class="card-text">$480</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/cinta5.jpg" class="card-img-top" alt="imagen producto 4">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-4</h5>
+                            <p class="card-text">$840</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/cinta 3.png" class="card-img-top" alt="imagen producto 5">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-5</h5>
+                            <p class="card-text">$840</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 3.jpg" class="card-img-top" alt="imagen producto 6">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-6</h5>
+                            <p class="card-text">$840</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/pincel 2.jpg" class="card-img-top" alt="imagen producto 7">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-7</h5>
+                            <p class="card-text">$840</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/pincel 3.jpg" class="card-img-top" alt="imagen producto 8">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-8</h5>
+                            <p class="card-text">$840</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/escalera.png" class="card-img-top" alt="imagen producto 9>
+                        <div class="textosA">
+                            <h5 class="card-title">producto-9</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/escalera2.webp" class="card-img-top" alt="imagen producto 10">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-10</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/escalera3.jpg" class="card-img-top" alt="imagen producto 11">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-11</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/escalera4.webp" class="card-img-top" alt="imagen producto 12">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-12</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                </div>
+            </section>
+            <section class="conteiner-fluid justify-content-around mt-5 mb-5">
+                <div class="row justify-content-around">
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/pincel1.jpg" class="card-img-top" alt="imagen producto 13">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-13</h5>
+                            <p class="card-text">$800</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/rodillo1.jpg" class="card-img-top" alt="imagen producto 14">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-14</h5>
+                            <p class="card-text">$450</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/rodillo2.jpg" class="card-img-top" alt="imagen producto 15">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-15</h5>
+                            <p class="card-text">$1100</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/rodillo3.jpg" class="card-img-top" alt="imagen producto 16">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-16</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 4.jpg" class="card-img-top" alt="imagen producto 17">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-17</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/guantes2.jpg" class="card-img-top" alt="imagen producto 18">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-18</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/guantes3.png" class="card-img-top" alt="imagen producto 19">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-19</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/guantes4.jpg" class="card-img-top" alt="imagen producto 20">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-20</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 5.jpg" class="card-img-top" alt="imagen producto 21">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-21</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 6.webp" class="card-img-top" alt="imagen producto 22">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-22</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/lija2.jpg" class="card-img-top" alt="imagen producto 23">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-23</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/espatula3.jpg" class="card-img-top" alt="imagen producto 24">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-24</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/espatula2.jpg" class="card-img-top" alt="imagen producto 25">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-25</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 7.jpg" class="card-img-top" alt="imagen producto 26">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-26</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                    <div class="cardA col-sm-6 col-md-4" style="width: 16rem;">
+                        <img src="/media/accesorios/accesorio 8.webp" class="card-img-top" alt="imagen producto 27">
+                        <div class="textosA">
+                            <h5 class="card-title">producto-27</h5>
+                            <p class="card-text">$700</p>
+                        </div>
+                        <a href="#" class="btn btn-lav">VER MAS</a>
+                    </div>
+                </div>
+            </section> 
+            <!--nav paginas-->
+            <section class="navpags">
+                <nav aria-label="...">
+                    <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link">anterior</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Paginas/accesorios.html">Accesorios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Paginas/contactanos.html">Contactanos</a>
+                    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">siguiente</a>
                     </li>
                     </ul>
-                    <form class="d-flex">
-                    <div class="aninav tran1 scale">
-                        <input class="form-control me-2" type="search" placeholder="Buscar productos..." aria-label="Search">
-                    </div>
-                    <div>
-                        <button class="btn btn-outline-secondary" type="submit"><a href="lupa"><i class="bi bi-search fs-4"></i></a></button>
-                    </div>
-                    <div>
-                        <button class="btn btn-outline-secondary" type="submit"><a href="carrito"><i class="bi bi-cart fs-4"></i></a></button>
-                    </div>
-                    </form>
+                </nav>
+            </section>
+        </main>
+        <!--pie de pagina-->
+        <footer class="anchofooter">
+            <div class="redes">
+                <div class="caja anim1 rotate">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook fs-2"></i></a>
                 </div>
+                <div class="caja anim2 rotate">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram fs-2"></i></a>
                 </div>
-            </nav>
-        </div>
-        <h1>Accesorios</h1>
-    </header>
-    <main class="accesorios">
-        <!--targetas de productos-->
-        <section class="conteiner-fluid mt-5 mb-5">
-            <h1 class="text-center h3 mt-5 mb-5">Productos destacados</h1>
-            <div class="row justify-content-around">
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 1.jpg" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-1</h5>
-                        <p class="card-text">$560</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
+                <div class="caja anim3 rotate">
+                    <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp fs-2"></i></a>
                 </div>
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 2.jpg" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-2</h5>
-                        <p class="card-text">$370</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
-                </div>
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 3.jpg" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-3</h5>
-                        <p class="card-text">$480</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
-                </div>
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 4.jpg" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-4</h5>
-                        <p class="card-text">$840</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
-                </div>
+                <a href=""><i class="bi bi-telephone-fill fs-4"></i>293874773747</a> <br>
+                <a href="https://mail.google.com/" target="_blank"><i class="bi bi-envelope-fill fs-4"></i>email:pepitospintureria222@gmail.com</a>
             </div>
-        </section>
-        <section class="conteiner-fluid justify-content-around mt-5 mb-5">
-            <div class="row justify-content-around">
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 5.jpg" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-5</h5>
-                        <p class="card-text">$800</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
-                </div>
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 6.webp" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-6</h5>
-                        <p class="card-text">$450</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
-                </div>
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 7.jpg" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-7</h5>
-                        <p class="card-text">$1100</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
-                </div>
-                <div class="cardA" style="width: 16rem;">
-                    <img src="/media/accesorios/accesorio 8.webp" class="card-img-top" alt="...">
-                    <div class="textosA">
-                        <h5 class="card-title">producto-8</h5>
-                        <p class="card-text">$700</p>
-                    </div>
-                    <a href="#" class="btn btn-lav">VER MAS</a>
-                </div>
-            </div>
-        </section> 
-        <!--nav paginas-->
-        <section class="navpags">
-            <nav aria-label="...">
-                <ul class="pagination justify-content-center">
-                <li class="page-item">
-                    <a class="page-link">anterior</a>
-                </li>
-                <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#">siguiente</a>
-                </li>
-                </ul>
-            </nav>
-        </section>
-    </main>
-    <!--pie de pagina-->
-    <footer class="anchofooter">
-        <div class="redes">
-            <div class="caja anim1 rotate">
-                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook fs-2"></i></a>
-            </div>
-            <div class="caja anim2 rotate">
-                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram fs-2"></i></a>
-            </div>
-            <div class="caja anim3 rotate">
-                <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp fs-2"></i></a>
-            </div>
-            <a href=""><i class="bi bi-telephone-fill fs-4"></i>293874773747</a> <br>
-            <a href="https://mail.google.com/" target="_blank"><i class="bi bi-envelope-fill fs-4"></i>email:pepitospintureria222@gmail.com</a>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
